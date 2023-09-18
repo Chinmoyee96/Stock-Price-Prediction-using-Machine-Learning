@@ -1,0 +1,9 @@
+Now the next thing to do is reading the data:
+
+1
+df = pd.read_csv("prices.csv")
+2
+df = df[df.symbol == "GOOG"]
+Now we need to prepare three input variables as already prepared in the function created in the above section. We need to declare an input variable mentioning about which column we want to predict. The next variable we need to declare is how much far we want to predict.
+
+And the last variable that we need to declare is how much should be the size of the test set. Now let’s declare all the variables:
