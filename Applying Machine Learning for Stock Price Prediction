@@ -1,0 +1,7 @@
+score=learner.score(X_test,Y_test)#testing the linear regression model
+forecast= learner.predict(X_lately) #set that will contain the forecasted data
+response={}#creting json object
+response['test_score']=score
+response['forecast_set']=forecast
+
+print(response)
